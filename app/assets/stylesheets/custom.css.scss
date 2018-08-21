@@ -70,6 +70,22 @@ $navbar-default-bg: #004155;
   padding-left: 0;
 }
 
+.label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;  
+}
+
 footer {
   margin-top: 40px;
   padding-top: 5px;

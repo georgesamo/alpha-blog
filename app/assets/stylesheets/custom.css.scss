@@ -1,4 +1,4 @@
-$navbar-default-bg: #004155;
+$navbar-default-bg: #000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -6,7 +6,7 @@ $navbar-default-bg: #004155;
 #logo {
   float: left;
 	font-size: 1.7em;
-	color: #fff;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
@@ -17,6 +17,10 @@ $navbar-default-bg: #004155;
   text-decoration: none;
 }
 
+.navbar > .container-fluid {
+  width: 100%;
+}
+
 .center {
   text-align: center;
 }
@@ -24,7 +28,7 @@ $navbar-default-bg: #004155;
 .jumbotron {
   background-image: asset-url("new_cover_image.jpg");
   background-size: cover;
-  height: 550px;
+  height: 500px;
 }
 
 .jumbotron h1 {
@@ -34,10 +38,6 @@ $navbar-default-bg: #004155;
   margin-bottom: 20px;
   margin-top: -10px;
   font-weight: bold;
-}
-
-.btn-xlarge {
-  font-size: 1.7em;
 }
 
 .article-meta-details {
